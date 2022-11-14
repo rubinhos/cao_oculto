@@ -1,0 +1,20 @@
+.puzzle-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bs-white);
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.puzzle-card.isOpened {
+  font-size: 15px;
+  padding: 0 10px;
+  transition: visibility 0.2s ease-out, opacity 0.2s ease-out;
+}
+
+.puzzle-card.isRevealed {
+  visibility: hidden;
+  opacity: 0;
+}

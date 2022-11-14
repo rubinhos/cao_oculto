@@ -1,0 +1,41 @@
+:root {
+  --padding: 25px;
+  --full-with-padding: calc(100% - (var(--padding) * 2));
+}
+
+.puzzle {
+  position: relative;
+}
+
+.puzzle__data {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+  border: 5px solid var(--bs-black);
+  width: var(--full-with-padding);
+  height: var(--full-with-padding);
+}
+
+.puzzle__data.isAllRevealed {
+  display: none;
+}
+
+.puzzle__container {
+  padding: 25px;
+  height: 100%;
+}
+
+.puzzle__image {
+  border: 5px solid var(--bs-black);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.puzzle__button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

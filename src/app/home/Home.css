@@ -1,0 +1,21 @@
+.home {
+  position: relative;
+  text-align: center;
+}
+
+.home__title {
+  background: var(--bs-dark);
+  color: var(--bs-light);
+  padding: 75px;
+}
+
+.home__subtitle {
+  color: var(--bs-secondary);
+}
+
+.home__link {
+  position: absolute;
+  bottom: 0;
+  font-size: 35px;
+  width: 100%;
+}
