@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/cao_oculto/static/css/main.95a44e19.css",
+    "main.js": "/cao_oculto/static/js/main.fbfd6548.js",
+    "static/js/787.fff82b29.chunk.js": "/cao_oculto/static/js/787.fff82b29.chunk.js",
+    "static/media/revealed.jpg": "/cao_oculto/static/media/revealed.37aeda3ebda475c11d44.jpg",
+    "static/media/puzzle.jpg": "/cao_oculto/static/media/puzzle.c3bf9c6f77bd87378160.jpg",
+    "static/media/bootstrap-icons.woff?": "/cao_oculto/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/cao_oculto/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "index.html": "/cao_oculto/index.html",
+    "main.95a44e19.css.map": "/cao_oculto/static/css/main.95a44e19.css.map",
+    "main.fbfd6548.js.map": "/cao_oculto/static/js/main.fbfd6548.js.map",
+    "787.fff82b29.chunk.js.map": "/cao_oculto/static/js/787.fff82b29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95a44e19.css",
+    "static/js/main.fbfd6548.js"
+  ]
+}
